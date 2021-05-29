@@ -1,13 +1,179 @@
-.capa {
-    position: relative;
-    top: 0;
-    height: auto;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Times New Roman', serif;
+  text-align: justify;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  background-color: black;
 }
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    align-content: right;
+}
+
+header nav {
+    display: flex;
+    flex: 100%;
+    justify-content: flex-end;
+}
+
+.link-menu {
+    margin: 8px;
+    color: white;
+    padding: 8px 8px;
+    border: 0px solid;
+    background: #000000;
+    border-radius: 8px;
+  }
+
+#principal {
+    font-family: "Times New Roman", serif;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#second, #contato {
+  width: 1200px;
+  margin: auto;
+}
+
+#principal {
+    color: white;
+}
+
+#area
+{
+  position:relative;
+  left:37%;
+  top:3em;
+  width:320px;
+  height:290px;
+}
+
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+
+fieldset
+{
+  background-color:#ffffff;
+  width:300px;
+  height:300px;
+}
+
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+#formulario input.nome
+{
+  background-color:#cacaca;
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.email
+{
+  background-color:#cacaca;
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.assunto
+{
+  background-color:#cacaca;
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario textarea.texto
+{
+  position:absolute;
+  background-color:#cacaca;
+}
+
+#formulario input.btn_submit
+{
+  border-style:dashed;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color:#cacaca;
+}
+
+input teste1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  input + label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: white;
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  align-items: center;
+}
+
+#capa {
+    height: auto;
+    width: 30%;
+}
+
+#video {
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    display: absolute;
+    float: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #video iframe {
+    width: 100%;
+  }
 
 footer {
     display: flex;
-    background: #4e4455;
+    background: #ffffff;
     padding: 15px;
     bottom: 0;
 }
@@ -16,22 +182,22 @@ footer {
     display: flex;
     max-width: 100%;
     margin: 0px auto;
-    align-items: left;
+    align-items: center;
 }
-
+  
 #email {
     justify-content: space-between;
     float: left;
 }
 
 #email a {
-    color: white;
+    color: black;
 }
 
 #social {
     float: right;
-    margin-left: auto;
-}
+    margin: auto;
+  }
 
 #social img {
     height: 30px;

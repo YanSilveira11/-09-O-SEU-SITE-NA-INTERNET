@@ -21,17 +21,23 @@
       </nav>
     </header>
 
-    <form>
-        Nome: <input type="text" name="Nome"><br>
-        Email: <input type="text" name="Email"> <br>
-        Assunto: <input type="text" name="Assunto da mensagem"> <br>
-        Texto: <input type="text" name="Texto da mensagem"> <br>
-        Assinatura newslatter: <input type="checkbox" > <br>
-        <input type="submit" value="Enviar" /> <br>
+    <div id="area">
+        <form id="formulario" autocomplete="of">
+        <fieldset>
+            <label>Nome:</label><input class="nome" type="text"><br><br>
+            <label>E-mail:</label><input class="email" type="text"><br><br>
+            <label>Assunto:</label><input class="assunto" type="text"><br><br>
+            <label>Texto:</label><br><textarea class="texto" type="text" cols="35" rows="8"></textarea><br><br><br><br><br><br><br>
 
+            <br><input id="teste1" type="checkbox">
+            <label for="teste1"> Testando checkbox</label>
+
+            <input class="btn_submit" type="submit" value="Enviar">
+        </fieldset>
     </form>
-    
-	
+    </div>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
     <footer>
         <div id="contato">
           <div id="email">
