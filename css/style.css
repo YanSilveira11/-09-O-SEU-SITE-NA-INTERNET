@@ -4,3 +4,36 @@
     height: auto;
     width: 100%;
 }
+
+footer {
+    display: flex;
+    background: #4e4455;
+    padding: 15px;
+    bottom: 0;
+}
+
+#contato {
+    display: flex;
+    max-width: 100%;
+    margin: 0px auto;
+    align-items: center;
+}
+
+#email {
+    justify-content: space-between;
+    float: left;
+}
+
+#email a {
+    color: white;
+}
+
+#social {
+    float: right;
+    margin-left: auto;
+}
+
+#social img {
+    height: 30px;
+    margin: 5px;
+}
